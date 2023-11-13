@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-brand img{
+    /* border-radius: 30px; */
+    margin-right: 50px;
+}
+.navbar-collapse  .navbar-nav .nav-item{
+    margin-right: 30px;
+}
+.navbar-collapse  .navbar-nav .nav-item .nav-link{
+    font-size: 25px;
+    color: white;
+}
+/* saerch bar */
+.search-bar {
+    margin:0;
+    padding:0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:55%;
+    left:85%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border: 5px white solid;
+    transition-duration: 0.5s;
+    border-radius: 10px
+  }
+  
+  .textbox {
+    width: 0px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    line-height: 40px;
+    font-size: 20px;
+    height:45px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    height: 100%;
+    float: left;
+    transition-duration: 0.3s;
+    ;
+  }
+  
+  .search-btn {
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    text-decoration: none;
+    height: 100%;
+    transition-duration: 0.3s;
+    
+  }
+
+  .search-btn p {
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+  }  
+  
+  .search-bar:hover > .textbox {
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    transition-duration: 0.5s;
+  }
+  
+  .search-bar:hover > .search-btn {
+    border-left: 5px white solid;
+    transition-duration: 0.3s;
+  }
+  
+  .search-btn:hover {
+    background-color: blue;
+    transition-duration: 0.3s;
+  }
+  .search-btn:hover > p {
+    color: white;
+    transition-duration: 0.3s;
+  }
+/* Search bar end */
+
+.container1{
+    width: auto;
+    height: 500x;
+    /* background-color: pink; */
+}
+.boss1{
+    display: flex;
+    overflow: hidden;
+    width: 100px;
+    height: 700px;
+    /* background-color: skyblue; */
+}
+.left1, .right1{
+    margin-left: 50px;
+    width: 100%;
+    height: 450px;
+    /* background-color: blue ; */
+}
+
+.left1 img, .right1 img{
+    object-fit: cover;
+    width: 100%;
+    /* overflow: hidden; */
+}   
+.left1 img{
+    margin-top: -25px;
+}
+.right1 img{
+    margin-top: 100px;
+}
+.letter1 h1{
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left: 500px;
+}
+.letter1 a{
+    margin-bottom: 30px;
+    margin-left: 620px;
+}
+.small-board{
+    margin-left: 82px;
+    height: 50px;
+    width: 200px;
+    background-color: gray;
+    border-radius: 10px 30px 0px 0px ;
+}
+.small-board h3{
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.ruler{
+    margin: auto;
+    width: 1100px;
+    height: 5px;
+    background-color: gray;
+}
+.view-more{
+    margin-left: 600px;
+}
+.iphone1 img{
+
+    width: 80%;
+    margin-left: 20px;
+}
+.macbook, .iphone, .iphone1{
+    /* padding: 50px; */
+    transition: 3s;
+    box-shadow: 1px 1px 20px  gray;
+}
+.macbook:hover, .iphone:hover, .iphone1:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+     transform: scale(1.1);
+}
+.btn1{
+    margin-left: 100px;
+}
+marquee h1{
+    font-size: 50px;
+    font:900px;
+}
+
+/* Model page (MacBook)*/
+
+.mac1, .mac2, .mac3, .mac4{
+    margin-left: 65px;
+}
+.mac2 img{
+    width: 95%;
+    padding-left: 15px;
+}
+.mac3 img{
+    width: 80%;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.mac4 img{
+    width: 85%;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.mac1, .mac2, .mac3, .mac4{
+    transition: 2s;
+    box-shadow: 1px 1px 5px  gray;
+}
+.mac1:hover, .mac2:hover, .mac3:hover, .mac4:hover{
+    -ms-transform: scale(0.9);       /* IE 9 */
+    -webkit-transform: scale(0.9); /* Safari 3-8 */
+    transform: scale(0.9);
+}
+
+/* Model Page (Iphone) */
+
+.phone1, .phone2, .phone3, .phone4, .phone5, .phone6{
+    margin-left: 65px;
+}
+.phone1 img{
+    height: 70%;
+    margin-top: 10px;
+}
+.phone2 img{
+    width: 85%;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.phone3 img{
+    width: 75%;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.phone4 img{
+    width: 100%;
+    margin-left: -20px;
+    padding-left: 10px;
+}
+.phone5 img {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 60%;
+}
+.phone6 img{
+    width: 65%;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.phone1, .phone2, .phone3, .phone4, .phone5, .phone6{
+    transition: 2s;
+    box-shadow: 1px 1px 5px  gray;
+}
+.phone1:hover, .phone2:hover, .phone3:hover, .phone4:hover,
+.phone5:hover, .phone6:hover{
+    -ms-transform: scale(0.95);       /* IE 9 */
+    -webkit-transform: scale(0.95); /* Safari 3-8 */
+    transform: scale(0.95);
+}
+
+/* contact us page */
+footer1{
+    display: inline-flex;
+}
+.l ,.m, .r,  .z{
+    margin-left: 130px;
+    bottom: 1000px;
+}
+.l p a, .m p a, .r p a, .z p a{
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+    
+}
+
+/* New Coming */
+
+.card2{
+    width: 1263px;
+    background-color: black;
+}
+.card2 img{
+    margin-left: 250px;
+    width: 800px;
+    height: auto;
+}
+.card2-title{
+    margin-top: 50px;
+}
+.logo-apple1 img{
+    width: 200px;
+    margin-left: 1000px;
+    margin-top: -120px;
+}
+.avp{
+    margin-left: 450px;
+}
+.text-avp{
+    margin-top: 450px;
+    margin-left: 400px;
+}
+.image-of-avp img{
+    margin-top: 80px;
+    width: 800px;
+    margin-left: 250px;
+}
+.avp1{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.avp2{
+    margin-left: 225px;
+    margin-top: 100px;
+    }
+.avp3{
+    margin-left: 280px;
+    margin-top: 100px;
+}
+.video-avp{
+    width: 1000px;
+    margin-left: 150px;
+}
+.ft{
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+/* assories */
+.airpod4 img{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 30px;  
+}
+.btn5{
+    margin-left: -5px;
+    text-decoration: none;
+}
+.btnipadpro, .btnipadair, .btnipad10th, .btnipad9th, 
+.btnipadmini, .btnwatchse, .btnwatch9, .btnwatch-ultra2,
+.btnhome-pod, .btnapple-tv{
+    margin-left: -25px;
+    text-decoration: none;
+}
+.btnbelkin{
+    text-decoration: none;
+}
+.ipadmini img{
+    height: 220px;
+}
+.ipadmini, .watch9, .watch-ultra2{
+    padding-top: 30px;
+}
+.watch9 img, .watch-ultra2 img {
+    width: 90%;
+    height: 220px;
+}
+.home-pod{
+    padding-top: 50px;
+}
+.home-pod img{
+    width: 90%;
+    height: 200px;
+}
+.ipadpro, .ipadair, .ipad10th, .ipad9th, .ipadmini, .watchse, 
+.watch9, .watch-ultra2, .home-pod, .apple-tv{
+    width: 80%;
+}
+
